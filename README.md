@@ -1,5 +1,5 @@
 # TextUtils
-TextUtils is an implementation of the BungeeCord Chat API for Drupi.
+**TextUtils** is an implementation of the BungeeCord Chat API for Drupi.
 You can download Drupi [here](https://stacket.net/drupi).
 
 ## Installation
