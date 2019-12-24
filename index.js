@@ -7,27 +7,27 @@ module.exports = {
 
     this.message = new TextComponent(text);
 
-    this.setHoverText = (hovText) => {
+    this.setHoverText = hovText => {
       this.message.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new ComponentBuilder(hovText).create()));
       return this;
     }
 
-    this.setCommand = (command) => {
+    this.setCommand = command => {
       this.message.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, command));
       return this;
     }
 
-    this.setUrl = (url) => {
+    this.setUrl = url => {
       this.message.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, url));
       return this;
     }
 
-    this.addExtra = (text) => {
+    this.addExtra = text => {
       this.message.addExtra(text);
       return this;
     }
 
-    this.setSuggestCommand = (command) => {
+    this.setSuggestCommand = command => {
       this.message.setClickEvent(new ClickEvent(ClickEvent.Action.SUGGEST_COMMAND, command));
       return this;
     }
