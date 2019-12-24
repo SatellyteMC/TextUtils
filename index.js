@@ -1,5 +1,5 @@
 module.exports = {
-  "Text": (text) => {
+  "Text": text => {
     var TextComponent = Java.type("net.md_5.bungee.api.chat.TextComponent");
     var HoverEvent = Java.type("net.md_5.bungee.api.chat.HoverEvent");
     var ClickEvent = Java.type("net.md_5.bungee.api.chat.ClickEvent");
