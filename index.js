@@ -27,6 +27,11 @@ module.exports = {
       return this;
     }
 
+    this.setSuggestCommand = (command) => {
+      this.message.setClickEvent(new ClickEvent(ClickEvent.Action.SUGGEST_COMMAND, command));
+      return this;
+    }
+
     this.create = () => {
       return this.message;
     }

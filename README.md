@@ -14,6 +14,8 @@ The center of **TextUtils** is the `Text()` object, which has 5 functions.
 
 `setCommand(string)` - add a command to be run when the text is clicked
 
+`setSuggestCommand(string)` - add a command to be suggested when the text is clicked
+
 `setUrl(string)` - add a URL to be opened when the text is clicked
 
 `addExtra(string)` - append text to the object
