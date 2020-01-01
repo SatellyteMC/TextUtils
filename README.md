@@ -31,7 +31,7 @@ const Text = require('TextUtils').Text;
 event.addListener("PlayerJoinEvent", event => {
   var player = event.getPlayer();
 
-  server().spigot().broadcast(Text("A player has joined!").addHoverText(player.getDisplayName()).create());
+  server().spigot().broadcast(Text("A player has joined!").setHoverText(player.getDisplayName()).create());
 });
 ```
 
@@ -46,7 +46,7 @@ const Text = require('TextUtils').Text;
 event.addListener("PlayerJoinEvent", event => {
   var player = event.getPlayer();
 
-  player.spigot().sendMessage(Text("Welcome to the server!").addUrl("https://myserver.com").create());
+  player.spigot().sendMessage(Text("Welcome to the server!").setUrl("https://myserver.com").create());
 });
 ```
 
