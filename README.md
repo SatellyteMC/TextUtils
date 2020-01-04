@@ -7,8 +7,8 @@ To install **TextUtils**, start up your Minecraft server and make sure Drupi is 
 Once Drupi has been installed, restart your server, and type the command `/drupi install textutils` into chat.
 This will begin installing **TextUtils**.
 
-## Functions
-The center of **TextUtils** is the `Text()` object, which has 5 functions.
+## Methods
+The center of **TextUtils** is the `Text()` object, which has 5 methods.
 
 `setHoverText(string)` - add text to displayed when text is hovered over
 
