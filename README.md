@@ -31,7 +31,7 @@ const Text = require('TextUtils').Text;
 event.addListener("PlayerJoinEvent", event => {
   var player = event.getPlayer();
 
-  server().spigot().broadcast(Text("A player has joined!").setHoverText(player.getDisplayName()).create());
+  server.spigot().broadcast(Text("A player has joined!").setHoverText(player.getDisplayName()).create());
 });
 ```
 
