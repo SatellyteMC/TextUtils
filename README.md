@@ -35,6 +35,8 @@ The center of **TextUtils** is the `Text` class, which has 12 methods.
 
 `create()` - returns the TextComponent, ready to be used
 
+static `rgb(r, g, b)` - does not require an instance of Text, returns a hex color code based on the given RGB values
+
 ## Broadcasting a message
 **TextUtils** is very easy to implement into your server. Let's see an example:
 
