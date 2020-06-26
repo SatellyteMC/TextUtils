@@ -67,4 +67,15 @@ exports = class Text {
     create(){
         return this.message;
     }
+
+    static rgb(r, g, b){
+        let rgbToHex = rgb => {
+            let hex = Number(rgb).toString(16);
+            if (hex.length < 2) {
+                hex = "0" + hex;
+            }
+            return hex;
+        }
+        return `#${rgbToHex(r)}${rgbToHex(g)}${rgbToHex(b)}`;
+    }
 }
