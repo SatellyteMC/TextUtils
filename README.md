@@ -1,6 +1,7 @@
 # TextUtils
 **TextUtils** is an implementation of the BungeeCord Chat API for Drupi.
-You can download Drupi [here](https://stacket.net/drupi).
+~~You can download Drupi [here](https://stacket.net/drupi).~~<br/><br/>
+**Update:** Stacket's Drupi page is down as of the time of writing this. You can download Drupi from the [Drupi GitHub repository](https://github.com/drupijs/Drupi-JS/releases).
 
 ## Installation
 To install **TextUtils**, start up your Minecraft server and make sure Drupi is installed.
