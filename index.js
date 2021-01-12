@@ -4,7 +4,7 @@ const ClickEvent = Java.type("net.md_5.bungee.api.chat.ClickEvent");
 const ComponentBuilder = Java.type("net.md_5.bungee.api.chat.ComponentBuilder");
 const ChatColor = Java.type("net.md_5.bungee.api.ChatColor");
 
-exports = class Text {
+module.exports = class Text {
     constructor(message){
         this.message = new TextComponent(message);
     }
