@@ -1,6 +1,6 @@
 {
   "name": "TextUtils",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Bungeecord Chat API for Drupi",
   "main": "index.js",
   "author": "Satellyte",
